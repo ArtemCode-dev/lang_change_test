@@ -1,0 +1,23 @@
+{
+    "Home": {
+      "title": "All Star",
+      "body": "Somebody once told me \n The world is gonna roll me"
+    },
+    "Catalog": {
+        "title": "Catalog"
+    },    
+    "Header": {
+        "title": "Header",
+        "home": "Home",
+        "catalog": "Catalog",
+        "profile": "Profile",
+        "aboutUs": "About Us"
+    },
+    "Footer": {
+        "title": "Footer",
+        "home": "Home",
+        "catalog": "Catalog",
+        "profile": "Profile",
+        "aboutUs": "About Us"
+    }
+  }
