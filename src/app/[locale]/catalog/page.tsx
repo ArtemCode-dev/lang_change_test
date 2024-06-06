@@ -10,9 +10,9 @@ function Catalog({}: Props) {
   return (
     <div>
       <Container>
-          <div className='flex flex-col gap-3 pt-5 pb-12'>
-            <h1 className='font-bold'>{t('title')}</h1>
-          </div>
+        <div className='flex flex-col gap-3 pt-5 pb-12'>
+          <h1 className='font-bold'>{t('title')}</h1>
+        </div>
       </Container>
     </div>
   )

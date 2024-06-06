@@ -12,31 +12,33 @@ function Footer({}: Props) {
 
   const t = useTranslations('Footer');
   return (
-    <div className='w-full h-[100px] bg-slate-500'>
+    <footer className='w-full h-[100px] bg-slate-500'>
         <Container>
           <Suspense fallback='...loading'>
             <div className='h-full w-full flex justify-between items-center'>
               <div>
                 {t('title')}
               </div>
-              <ul className='flex items-center gap-5'>
-                <li>
-                  <Link href='/'>{t('home')}</Link>
-                </li>
-                <li>
-                  <Link href='/catalog'>{t('catalog')}</Link>
-                </li>
-                <li>
-                  <Link href='/'>{t('profile')}</Link>
-                </li>
-                <li>
-                  <Link href='/'>{t('aboutUs')}</Link>
-                </li>
-              </ul>
+              <nav>
+                <ul className='flex items-center gap-5'>
+                  <li>
+                    <Link href='/'>{t('home')}</Link>
+                  </li>
+                  <li>
+                    <Link href='/catalog'>{t('catalog')}</Link>
+                  </li>
+                  <li>
+                    <Link href='/'>{t('profile')}</Link>
+                  </li>
+                  <li>
+                    <Link href='/'>{t('aboutUs')}</Link>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </Suspense>
         </Container>
-    </div>
+    </footer>
   )
 }
 
